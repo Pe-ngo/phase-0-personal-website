@@ -57,3 +57,65 @@ a:hover{
     padding-top: 5px;
     font-size: 18px;
 }
+
+.doctors{
+    border: 3px solid cyan;
+    overflow: scroll;
+    cursor: pointer;
+    margin: auto;
+    height: 250px;
+    width: 1150px;
+}
+
+.doctors h1{
+    text-align: center;
+}
+
+.doctors .doc-box{
+    display: flex;
+    gap: 2rem;
+    padding: 5px;
+}
+
+.doctors .doc-box .box{
+    text-align: center;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border: 3px solid cyan;
+}
+
+.doctors .doc-box .box img{
+    box-shadow: var(--box-shadow);
+    border: 3px solid cyan;
+    border-radius: 10px;
+}
+
+.doctors .doc-box .box .socialHandle i:hover{
+    background-color: blue;
+}
+
+.doctors .doc-images{
+    display: flex;
+    gap: 2rem;
+    padding: 5px;
+}
+.doctors .doc-images .box{
+    text-align: center;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border: 3px solid cyan;
+}
+
+.doctors .doc-images .box .socialHandle i:hover{
+    background-color: blue;
+}
+
+.doctors .doc-images .box img{
+    box-shadow: var(--box-shadow);
+    border: 3px solid cyan;
+    border-radius: 10px;
+}
