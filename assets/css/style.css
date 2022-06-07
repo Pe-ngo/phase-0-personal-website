@@ -7,6 +7,7 @@ nav{
     background-color: aqua;
     display: flex;
     justify-content:space-between;
+    height: 130px;
 }
 
 nav > .logo{
@@ -41,4 +42,13 @@ nav > .links > ul > li > a{
 
 a:hover{
     color: gray;
+}
+
+#portion-two{
+    background-color: gray;
+}
+
+.aboutSection{
+    text-align: center;
+    padding: 30px;
 }
