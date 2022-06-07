@@ -119,3 +119,31 @@ a:hover{
     border: 3px solid cyan;
     border-radius: 10px;
 }
+
+.button{
+    margin-left: 650px;
+}
+
+.button>.appointment{
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: cyan;
+    margin-top: 50px;
+}
+
+.button>.appointment:hover{
+    background-color: blue;
+}
+
+.button>.consult{
+    height: 60px;
+    width: 180px;
+    border-radius: 20px;
+    background-color: cyan;
+    margin-top: 50px;
+}
+
+.button>.consult:hover{
+    background-color: blue;
+}
