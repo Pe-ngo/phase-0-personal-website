@@ -9,12 +9,24 @@ nav{
     justify-content:space-between;
 }
 
-nav > .logo, .links{
-    margin: 30px;
+nav > .logo{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 10px;
 }
 
 nav > .logo > h1{
     font-size: 30px;
+}
+
+nav > .logo > i{
+    padding-top: 30px;
+    padding-left: 5px;
+    color: gray;
+}
+
+nav > .logo .links{
+    margin: 30px;
 }
   
 nav > .links > ul > li{
@@ -28,5 +40,5 @@ nav > .links > ul > li > a{
 }
 
 a:hover{
-    color: grey;
+    color: gray;
 }
