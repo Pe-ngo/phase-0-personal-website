@@ -35,6 +35,14 @@ nav > .links > ul > li{
     padding: 30px;
 }
 
+nav > .links > ul > .logIn{
+    margin-right: 20px;
+}
+
+nav > .links > ul > .logIn:hover{
+    background-color: blue;
+}
+
 nav > .links > ul > li > a{
     text-decoration: none;
     font-size: 20px;    
